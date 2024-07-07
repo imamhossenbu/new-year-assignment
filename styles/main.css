@@ -60,6 +60,7 @@
     font-weight: 600;
     margin-top: 40px;
     margin-left: 30px;
+    cursor: pointer;
 }
 .main-image{
     width: 350px;
@@ -96,4 +97,65 @@
     margin-top: 30px;
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
+}
+.main-best-offer{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+    /* padding-left: 25px; */
+    margin: 100px auto;
+}
+.best-offer-desc{
+    width: 30%;
+    /* padding-right: 0px; */
+}
+.best-offer-desc h5{
+    color: red;
+    font-size: 18px;
+    font-family: "Inter", sans-serif ;
+    padding-bottom: 10px;
+}
+.best-offer-desc h1{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    padding-bottom: 10px;
+}
+.best-offer-desc p{
+    font-size: 16px;
+    opacity: 0.6;
+    font-family: "Inter", sans-serif ;
+    font-weight: 500;
+    line-height: 25px;
+}
+.best-offer-img{
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 25px;
+}
+.best-offer-img img{
+     width:270px; 
+    
+}
+.best-offer-title{
+    width: 30%; 
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.best-offer-title h1{
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.best-offer-title p{
+    font-family: "Inter", sans-serif;
+    opacity: 0.6;
+    padding-bottom: 40px;
+    font-weight: 500;
+    line-height: 25px;
 }
