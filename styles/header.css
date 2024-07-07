@@ -1,0 +1,28 @@
+.header-container{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    font-family: "Merriweather", serif;
+}
+.header-desc{
+    color: white;
+   text-align: center;
+   padding-top: 50px;
+}
+.header-desc p{
+    font-size: 20px;
+}
+.header-desc h2{
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 800;
+}
